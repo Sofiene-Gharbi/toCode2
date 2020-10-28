@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<book>
+    <title>Book Title</title>
+
+    <authors>
+        <a1:author>
+            <firstName>author1 firstName</firstName>
+            <lastName>author1 lastName</lastName>
+        </author>
+        <author>
+            <firstName>author2 firstName</firstName>
+            <lastName>author2 lastName</lastName>
+        </author>
+    </authors>
+
+    <sections>
+        <section1>
+            <title>section1</title>
+            <chapters>
+                <chapter1>
+                    <title>chapter1</title>
+                    <paragraph1>You find here the paragraph 1 content</paragraph1>
+                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                </chapter1>
+                <chapter2>
+                    <title>chapter2</title>
+                    <paragraph1>You find here the paragraph 1 content</paragraph1>
+                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                </chapter2>
+            </chapters>
+        </section1>
+        <section2>
+            <title>section2</title>
+            <chapters>
+                <chapter1>
+                    <title>chapter1</title>
+                    <paragraph1>You find here the paragraph 1 content</paragraph1>
+                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                </chapter1>
+                <chapter2>
+                    <title>chapter2</title>
+                    <paragraph1>You find here the paragraph 1 content</paragraph1>
+                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                </chapter2>
+            </chapters>
+        </section2>
+    </sections>
+
+</book>
