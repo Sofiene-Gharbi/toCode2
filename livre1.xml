@@ -20,13 +20,17 @@
             <chapters>
                 <chapter1>
                     <title>chapter1</title>
-                    <paragraph1>You find here the paragraph 1 content</paragraph1>
-                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    <paragraphs>
+                        <paragraph1>You find here the paragraph 1 content</paragraph1>
+                        <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    </paragraphs> 
                 </chapter1>
                 <chapter2>
                     <title>chapter2</title>
-                    <paragraph1>You find here the paragraph 1 content</paragraph1>
-                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    <paragraphs>
+                        <paragraph1>You find here the paragraph 1 content</paragraph1>
+                        <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    </paragraphs>
                 </chapter2>
             </chapters>
         </section1>
@@ -35,13 +39,17 @@
             <chapters>
                 <chapter1>
                     <title>chapter1</title>
-                    <paragraph1>You find here the paragraph 1 content</paragraph1>
-                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    <paragraphs>
+                        <paragraph1>You find here the paragraph 1 content</paragraph1>
+                        <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    </paragraphs> 
                 </chapter1>
                 <chapter2>
                     <title>chapter2</title>
-                    <paragraph1>You find here the paragraph 1 content</paragraph1>
-                    <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    <paragraphs>
+                        <paragraph1>You find here the paragraph 1 content</paragraph1>
+                        <paragraph2>You find here the paragraph 2 content</paragraph2>
+                    </paragraphs> 
                 </chapter2>
             </chapters>
         </section2>
