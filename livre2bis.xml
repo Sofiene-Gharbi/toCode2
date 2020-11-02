@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<book>
-    <title>Book Title</title>
-
+<book title="Book Title">
     <authors>
-        <author>
-            <firstName>author1 firstName</firstName>
-            <lastName>author1 lastName</lastName>
-        </author>
-        <author>
-            <firstName>author2 firstName</firstName>
-            <lastName>author2 lastName</lastName>
-        </author>
+        <author firstName="author2 firstName" lastName="author2 lastName"></author>
+        <author firstName="author2 firstName" lastName="author2 lastName"></author>
     </authors>
 
     <sections>
-        <section1>
-            <title>section1</title>
+        <section1 title="section1">
             <chapters>
-                <chapter1>
-                    <title>chapter1</title>
+                <chapter1 title="chapter1">
                     <paragraphs>
-                        <paragraph1>You find here the paragraph 1 content</paragraph1>
-                        <paragraph2>You find here the paragraph 2 content</paragraph2>
+                        <paragraph1>&lt;element id=&quot;10&quot;&gt;&lt;/element&gt;</paragraph1>
+                        <paragraph2>![CDATA[ <element id="10"></element> ]]</paragraph2>
                     </paragraphs> 
                 </chapter1>
-                <chapter2>
-                    <title>chapter2</title>
+                <chapter2 title="chapter2">
                     <paragraphs>
                         <paragraph1>You find here the paragraph 1 content</paragraph1>
                         <paragraph2>You find here the paragraph 2 content</paragraph2>
@@ -34,18 +23,15 @@
                 </chapter2>
             </chapters>
         </section1>
-        <section2>
-            <title>section2</title>
+        <section2 title="section2">
             <chapters>
-                <chapter1>
-                    <title>chapter1</title>
+                <chapter1 title="chapter1">
                     <paragraphs>
                         <paragraph1>You find here the paragraph 1 content</paragraph1>
                         <paragraph2>You find here the paragraph 2 content</paragraph2>
                     </paragraphs> 
                 </chapter1>
-                <chapter2>
-                    <title>chapter2</title>
+                <chapter2 title="chapter2">
                     <paragraphs>
                         <paragraph1>You find here the paragraph 1 content</paragraph1>
                         <paragraph2>You find here the paragraph 2 content</paragraph2>
@@ -56,3 +42,5 @@
     </sections>
 
 </book>
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<simpleType name="technoType">
+		<restriction base="xs:string">
+			<enumeration value="XML" />
+			<enumeration value="Java" />
+			<enumeration value="Autre" />
+		</restriction>
+	</simpleType>
+	<simpleType name="listIntType">
+		<list itemType="xs:int">
+		</list>
+	</simpleType>
+	<simpleType name="telType">
+		<restriction base="listIntType">
+			<length value="5" />
+		</restriction>
+	</simpleType>
+	<simpleType name="emailType">
+		<restriction base="xs:string">
+			<pattern value="[a-z]+@[a-z]+\.[a-z]{2,3}" />
+		</restriction>
+	</simpleType>
+	<complexType name="contactType">
+		<sequence>
+			<element name="nom" type="xs:string" />
+			<element name="prenom" type="xs:string" />
+			<element name="telephone" type="xs:string" minOccurs="0" />
+			<element name="email" type="emailType" maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="titre" type="xs:string" use="required" />
+		<attribute name="techno" type="TechnoType" use="optional" />
+	</complexType>
+	<element name="numeros" type="numerosType" />
+</schema>

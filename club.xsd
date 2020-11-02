@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<element name="Member">
+		<complexType>
+			<sequence>
+				<element name="Name" type="NameType" />
+				<element name="Email" type="EmailType" />
+			</sequence>
+			<attribute name="id" type="xs:ID" use="required" />
+			<attribute name="clubs" type="xs:IDREFS" use="optional" />
+		</complexType>
+	</element>
+	<element name="Club" type="root" />
+	<element name="Club">
+		<complexType>
+			<sequence>
+				<element ref="Member" maxOccurs="unbounded" />
+			</sequence>
+			<attribute name="clubId" type="xs:ID" use="required" />
+		</complexType>
+	</element>
+	<complexType name="NameType">
+		<sequence>
+			<element name="FirstName" type="xs:string" />
+			<element name="MiddleInitial" type="xs:string" use="optional" />
+			<element name="LastName" type="xs:string" />
+		</sequence>
+	</complexType>
+</schema>

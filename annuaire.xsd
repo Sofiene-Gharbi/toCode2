@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<complexType name="numerosType">
+		<sequence>
+			<element name="contact" type="contactType" maxOccurs="unbounded" />
+		</sequence>
+	</complexType>
+	<complexType name="contactType">
+		<sequence>
+			<element name="nom" type="xs:string" />
+			<element name="prenom" type="xs:string" />
+			<element name="telephone" type="xs:string" minOccurs="0" />
+			<element name="email" type="xs:string" maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="titre" type="xs:string" use="required" />
+		<attribute name="techno" type="xs:string" use="optional" />
+	</complexType>
+	<element name="numeros" type="numerosType" />
+</schema>

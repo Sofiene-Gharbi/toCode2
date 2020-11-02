@@ -1,0 +1,28 @@
+<p1:livre titre="Mon livre" xmlns:p1="http://www.masociete.com" xmlns:p2="http://www.monentreprise.com">
+    <p1:auteurs>
+        <p1:auteur firstName="author1 firstName" lastName="author1 lastName"/>
+        <p1:auteur firstName="author2 firstName" lastName="author2 lastName"/>
+    </p1:auteurs>
+    <p1:sections>
+        <p1:section titre="section1">
+            <p1:chapitre titre="chapter1">
+                <p1:paragraphe>You find here the paragraph 1 content</p1:paragraphe>
+                <p1:paragraphe>You find here the paragraph 2 content</p1:paragraphe>
+            </p1:chapitre>
+            <p1:chapitre titre="chapter2">
+                <p1:paragraphe>You find here the paragraph 1 content</p1:paragraphe>
+                <p1:paragraphe>You find here the paragraph 2 content</p1:paragraphe>
+            </p1:chapitre>
+        </p1:section>
+        <p2:section titre="section2">
+            <p2:chapitre titre="chapter1">
+                <p2:paragraphe>You find here the paragraph 1 content</p2:paragraphe>
+                <p2:paragraphe>You find here the paragraph 2 content</p2:paragraphe>
+            </p2:chapitre>
+            <p2:chapitre titre="chapter2">
+                <p2:paragraphe>You find here the paragraph 1 content</p2:paragraphe>
+                <p2:paragraphe>You find here the paragraph 2 content</p2:paragraphe>
+            </p2:chapitre>
+        </p2:section>
+    </p1:sections>
+</p1:livre>
